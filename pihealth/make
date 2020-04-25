@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ ./client/client.cpp ./common/common.cpp -I ./common -lpthread -o ./c
+g++ ./master/master.cpp ./common/common.cpp -I ./common -lpthread -o ./m
