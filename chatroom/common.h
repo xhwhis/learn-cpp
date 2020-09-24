@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define SERVER_IP "127.0.0.1"
-#define SERVER_PORT 34876
+#define SERVER_PORT 34678
 #define EPOLL_SIZE 500
 #define BUF_SIZE 10000
 #define SERVER_MESSAGE "ClientID#%d say: %s"
