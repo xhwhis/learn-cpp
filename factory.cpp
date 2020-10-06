@@ -15,6 +15,7 @@ protected:
 };
 
 class benzCar : public ICar {
+private:
     benzCar() {}
 public:
     class Factory : public ICar::IFactor {
@@ -29,6 +30,7 @@ public:
 };
 
 class bmwCar : public ICar {
+private:
     bmwCar() {}
 public:
     class Factory : public ICar::IFactor {
